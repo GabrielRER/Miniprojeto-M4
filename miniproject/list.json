@@ -1,0 +1,52 @@
+[
+
+{
+    "task": "relatory",
+    "deadline": "20-06-2024",
+    "tag": "job",
+    "done": "yes"
+},
+
+{
+    "task": "study js",
+    "deadline": "25-06-2024",
+    "tag": "programming curse",
+    "done": "yes"
+},
+
+{
+    "task": "math homework",
+    "deadline": "30-06-2024",
+    "tag": "school",
+    "done": "no"
+},
+
+{
+    "task": "fix closet",
+    "deadline": "02-07-2024",
+    "tag": "home",
+    "done": "no"
+},
+
+{
+    "task": "history work",
+    "deadline": "05-07-2024",
+    "tag": "school",
+    "done": "yes"
+},
+
+{
+    "task": "make graphs",
+    "deadline": "10-07-2024",
+    "tag": "job",
+    "done": "no"
+},
+
+{
+    "task": "clean bathroom",
+    "deadline": "14-07-2024",
+    "tag": "home",
+    "done": "no"
+}
+
+]
