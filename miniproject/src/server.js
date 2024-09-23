@@ -2,6 +2,11 @@ import { listRouter } from "./routes/taskList.routes.js";
 import express from "express";
 const app = express();
 const port = 3100;
+import cors from "cors";
+
+app.use(cors({
+    origin: "http://localhost:5173",  
+}));
 
 app.use(express.json());
 

@@ -14,5 +14,20 @@ export default class List {
         changeDone(){
             this.done = !this.done;
         }
+
+        editTask(newTask, newDeadline, newTag) {
+            
+            if (newTask) {
+                this.task = newTask;
+            }
+            
+            if (newDeadline) {
+                this.deadline = newDeadline;
+            }
+            if (newTag) {
+                this.tag = newTag;
+            }
+
+        }
 }
 

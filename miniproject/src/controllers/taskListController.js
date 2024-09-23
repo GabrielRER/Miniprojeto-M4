@@ -50,3 +50,15 @@ export const deleteTask = (id) => {
     }
 
 }
+
+export const editTask = (id, newTask, newDeadline, newTag) => {
+    const existingTask = listTasks.find(task => task.id == id);
+
+    if (existingTask) {
+        const searchIndex = listTasks.findIndex(task => task.id == id);
+        listTasks[searchIndex].editTask(newTask, newDeadline, newTag);
+        return listTasks[searchIndex];
+    } else {
+        return "Essa tarefa não existe"
+    }
+}
